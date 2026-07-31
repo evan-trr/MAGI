@@ -1,8 +1,8 @@
 # MAGI
 
-[![GitHub](https://img.shields.io/github/license/yourusername/magi)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/magi)](https://github.com/yourusername/magi/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/magi)](https://github.com/yourusername/magi/issues)
+[![GitHub](https://img.shields.io/github/license/yourusername/MAGI)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/MAGI)](https://github.com/yourusername/magi/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/MAGI)](https://github.com/yourusername/magi/issues)
 
 MAGI is a personal assistant inspired by the iconic "Magi" computers from Evangelion. MAGI aims to be a user-centric tool that emphasizes privacy and local execution.
 
