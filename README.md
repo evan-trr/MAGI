@@ -36,7 +36,7 @@ MAGI embodies the spirit of the Magi computers from Neon Genesis Evangelion, but
 ### Installation
 
 ```bash
-git clone https://github.com/evan-trr/magi.git
+git clone https://github.com/evan-trr/MAGI.git
 cd magi
 cargo build
 ```
