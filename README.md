@@ -1,8 +1,8 @@
 # MAGI
 
-[![GitHub](https://img.shields.io/github/license/yourusername/MAGI)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/MAGI)](https://github.com/yourusername/magi/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/MAGI)](https://github.com/yourusername/magi/issues)
+[![GitHub](https://img.shields.io/github/license/evan-trr/MAGI)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/evan-trr/MAGI)](https://github.com/evan-trr/magi/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/evan-trr/MAGI)](https://github.com/evan-trr/magi/issues)
 
 MAGI is a personal assistant inspired by the iconic "Magi" computers from Evangelion. MAGI aims to be a user-centric tool that emphasizes privacy and local execution.
 
@@ -36,7 +36,7 @@ MAGI embodies the spirit of the Magi computers from Neon Genesis Evangelion, but
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/magi.git
+git clone https://github.com/evan-trr/magi.git
 cd magi
 cargo build
 ```
