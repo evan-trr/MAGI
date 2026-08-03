@@ -1,0 +1,28 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#101A33"/>
+      <stop offset="1" stop-color="#1A2A4A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="110" x2="1040" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7EE0C3"/>
+      <stop offset="1" stop-color="#7A8CFF"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="1200" height="400" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.1 0 1 0 0 0.3 0 0 1 0 0.55 0 0 0 0.85 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" rx="32" fill="url(#bg)"/>
+  <circle cx="930" cy="110" r="120" fill="#7A8CFF" opacity="0.12"/>
+  <circle cx="260" cy="300" r="150" fill="#7EE0C3" opacity="0.10"/>
+  <path d="M120 120H1080" stroke="url(#accent)" stroke-width="2" opacity="0.35"/>
+  <path d="M120 280H1080" stroke="url(#accent)" stroke-width="2" opacity="0.22"/>
+  <g filter="url(#glow)">
+    <text x="120" y="210" fill="#EAF2FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="6">MAGI</text>
+  </g>
+  <text x="122" y="262" fill="#C8D4F0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="1.2">A local personal assistant for long-term work, research, and systems thinking.</text>
+  <text x="122" y="302" fill="#93A7D4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400">Privacy-first • Modular • Extensible • Open source</text>
+</svg>
