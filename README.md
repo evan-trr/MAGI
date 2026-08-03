@@ -260,14 +260,16 @@ Main use:
 
 ## Roadmap
 
-- [x] Define the project vision and scope.
-- [x] Align the repository presentation for public GitHub.
-- [ ] Define the first stable technical stack.
-- [ ] Build the orchestration layer.
-- [ ] Implement the first memory layer.
-- [ ] Add the first tool integrations.
-- [ ] Design the first usable interface.
-- [ ] Document the MVP architecture.
+The detailed roadmap lives in [docs/roadmap.md](docs/roadmap.md).
+
+Current focus:
+
+- lock the first MVP stack and execution model;
+- define the interface-orchestrator-memory-tools-model contract;
+- build the first usable vertical slice;
+- keep the public repository clean and understandable.
+
+The roadmap is intentionally staged so the project can ship a narrow first version before expanding into personas, deeper memory, and multi-machine support.
 
 ---
 
@@ -278,6 +280,8 @@ MAGI/
 ├── assets/
 │   ├── banner.svg
 │   └── progress-range/
+├── docs/
+│   └── roadmap.md
 ├── LICENSE
 ├── README.md
 └── .gitignore
